@@ -8,7 +8,7 @@ public class Deposito extends Thread {
     public Deposito(Transacao operacao, Conta beneficiario) {
         this.operacao = operacao;
         this.beneficiario = beneficiario;
-        System.out.println("\n\tDEPÓSITO BANCÁRIO");
+        System.out.println("\n\t> DEPÓSITO BANCÁRIO");
         System.out.println("\tTitular: " + this.operacao.getContaTitular().getNomeTitular());
         System.out.println("\tBeneficiário: " + this.beneficiario.getNomeTitular());
         this.start();

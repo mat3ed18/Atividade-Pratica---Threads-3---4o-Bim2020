@@ -60,7 +60,7 @@ public class Transacao extends Thread {
     }
 
     public boolean transacao(double valor, String op, long timeStamp) {
-        System.out.println("\t\tAguarde... a verificação do saldo está sendo realizada na conta do(a) " + this.contaTitular.getNomeTitular());
+        System.out.println("\t\t*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) " + this.contaTitular.getNomeTitular());
         try {
             this.sleep(this.tempo);
         } catch (InterruptedException ex) {
@@ -72,13 +72,16 @@ public class Transacao extends Thread {
                 System.out.println("\t\t[" + new DateTime(timeStamp).getCurrentTime() + "] >> OPERAÇÃO REALIZADA COM SUCESSO!");
                 return true;
             } else if (this.contaTitular.getSaldo() <= 0) {
-                System.out.println("\t\t[" + new DateTime(timeStamp).getCurrentTime() + "] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS\n");
+                System.out.println("\t\t[" + new DateTime(timeStamp).getCurrentTime() + "] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS");
+                System.out.println("\n\t>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: \n\n\t" + this.contaTitular.toString() + "\n");
                 return false;
             } else if (this.contaTitular.getSaldo() <= valor) {
-                System.out.println("\t\t[" + new DateTime(timeStamp).getCurrentTime() + "] >> ERRO! VOCÊ PODERÁ REALIZAR " + op + "S DE ATÉ R$ " + this.contaTitular.getSaldo() + "\n");
+                System.out.println("\t\t[" + new DateTime(timeStamp).getCurrentTime() + "] >> ERRO! VOCÊ PODERÁ REALIZAR " + op + "S DE ATÉ R$ " + this.contaTitular.getSaldo());
+                System.out.println("\n\t>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: \n\n\t" + this.contaTitular.toString() + "\n");
                 return false;
             } else if (valor <= 0) {
-                System.out.println("\t\t[" + new DateTime(timeStamp).getCurrentTime() + "] >> ERRO! NÃO É PERMITIDO FAZER " + op + "S EM BRANCO\n");
+                System.out.println("\t\t[" + new DateTime(timeStamp).getCurrentTime() + "] >> ERRO! NÃO É PERMITIDO FAZER " + op + "S EM BRANCO");
+                System.out.println("\n\t>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: \n\n\t" + this.contaTitular.toString() + "\n");
                 return false;
             } else {
                 return false;

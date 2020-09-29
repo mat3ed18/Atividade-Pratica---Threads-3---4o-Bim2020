@@ -1,162 +1,204 @@
 run:
 ------ #01 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:11] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:01] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo do Titular: R$ 1500.0
 	Saldo do Beneficiário: R$ 1500.0
 
 ------ #02 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Everte Arima
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:15] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:05] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo do Titular: R$ 1200.0
 	Saldo do Beneficiário: R$ 1300.0
 
 ------ #03 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Jussimar Leal
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Jussimar Leal
-		[2020-09-29 20:27:19] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Jussimar Leal
+		[2020-09-29 20:56:09] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo atual: R$ 500.0
 
 ------ #04 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Jussimar Leal
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:23] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:13] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo do Titular: R$ 900.0
 	Saldo do Beneficiário: R$ 800.0
 
 ------ #05 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:27] >> ERRO! VOCÊ PODERÁ REALIZAR saqueS DE ATÉ R$ 900.0
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:17] >> ERRO! VOCÊ PODERÁ REALIZAR saqueS DE ATÉ R$ 900.0
+
+	>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: 
+
+	INFORMAÇÕES DA CONTA:
+	NOME: Mateus Pedro
+	SALDO: R$ 900.0
 
 ------ #06 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:31] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:21] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo do Titular: R$ 1200.0
 	Saldo do Beneficiário: R$ 1200.0
 
 ------ #07 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:35] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:25] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo atual: R$ 700.0
 
 ------ #08 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:39] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:29] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo do Titular: R$ 1000.0
 	Saldo do Beneficiário: R$ 1000.0
 
 ------ #09 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:43] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:33] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo atual: R$ 500.0
 
 ------ #10 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Jussimar Leal
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:47] >> ERRO! VOCÊ PODERÁ REALIZAR depósitoS DE ATÉ R$ 500.0
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:37] >> ERRO! VOCÊ PODERÁ REALIZAR depósitoS DE ATÉ R$ 500.0
+
+	>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: 
+
+	INFORMAÇÕES DA CONTA:
+	NOME: Mateus Pedro
+	SALDO: R$ 500.0
 
 ------ #11 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Everte Arima
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Everte Arima
-		[2020-09-29 20:27:51] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Everte Arima
+		[2020-09-29 20:56:41] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo atual: R$ 1050.0
 
 ------ #12 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:55] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:45] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo atual: R$ 0.0
 
 ------ #13 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Everte Arima
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:27:59] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:49] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+
+	>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: 
+
+	INFORMAÇÕES DA CONTA:
+	NOME: Mateus Pedro
+	SALDO: R$ 0.0
 
 ------ #14 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Everte Arima
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Everte Arima
-		[2020-09-29 20:28:03] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Everte Arima
+		[2020-09-29 20:56:53] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo atual: R$ 800.0
 
 ------ #15 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:28:07] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:56:57] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+
+	>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: 
+
+	INFORMAÇÕES DA CONTA:
+	NOME: Mateus Pedro
+	SALDO: R$ 0.0
 
 ------ #16 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Jussimar Leal
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:28:11] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:57:01] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+
+	>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: 
+
+	INFORMAÇÕES DA CONTA:
+	NOME: Mateus Pedro
+	SALDO: R$ 0.0
 
 ------ #17 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Jussimar Leal
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Jussimar Leal
-		[2020-09-29 20:28:15] >> OPERAÇÃO REALIZADA COM SUCESSO!
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Jussimar Leal
+		[2020-09-29 20:57:05] >> OPERAÇÃO REALIZADA COM SUCESSO!
 	Saldo atual: R$ 550.0
 
 ------ #18 DEPÓSITO --------
 
-	DEPÓSITO BANCÁRIO
+	> DEPÓSITO BANCÁRIO
 	Titular: Mateus Pedro
 	Beneficiário: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:28:19] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:57:09] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+
+	>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: 
+
+	INFORMAÇÕES DA CONTA:
+	NOME: Mateus Pedro
+	SALDO: R$ 0.0
 
 ------ #19 SAQUE --------
 
-	SAQUE BANCÁRIO
+	> SAQUE BANCÁRIO
 	Titular: Mateus Pedro
-		Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
-		[2020-09-29 20:28:23] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+		*** Aguarde... a verificação do saldo está sendo realizada na conta do(a) Mateus Pedro
+		[2020-09-29 20:57:13] >> SALDO INSUFICENTE! VOCÊ NÃO POSSUI SALDO PARA REALIZAR TRANSAÇÕES BANCÁRIAS
+
+	>>> ERRO ENCONTRADO NA OPERAÇÃO REALIZADA POR: 
+
+	INFORMAÇÕES DA CONTA:
+	NOME: Mateus Pedro
+	SALDO: R$ 0.0
 
 INFORMAÇÕES DA CONTA:
 	NOME: Mateus Pedro
@@ -167,4 +209,4 @@ INFORMAÇÕES DA CONTA:
 INFORMAÇÕES DA CONTA:
 	NOME: Jussimar Leal
 	SALDO: R$ 550.0
-CONSTRUÍDO COM SUCESSO (tempo total: 1 minuto 16 segundos)
+CONSTRUÍDO COM SUCESSO (tempo total: 1 minuto 17 segundos)

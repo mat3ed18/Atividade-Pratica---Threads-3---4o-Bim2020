@@ -8,7 +8,7 @@ public class Saque extends Thread {
     public Saque(Transacao operacao) {
         this.operacao = operacao;
         this.contaTitular = this.operacao.getContaTitular();
-        System.out.println("\n\tSAQUE BANCÁRIO");
+        System.out.println("\n\t> SAQUE BANCÁRIO");
         System.out.println("\tTitular: " + this.contaTitular.getNomeTitular());
         this.start();
     }
